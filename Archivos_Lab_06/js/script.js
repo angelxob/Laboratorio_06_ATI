@@ -5,7 +5,7 @@
 		'{ "firstName":"John" , "lastName":"Doe" },' +
 		'{ "firstName":"Anna" , "lastName":"Smith" },' +
 		'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
-
+		var m = 0;
 		var objeto = JSON.parse(json_texto); 
 		empleados = objeto.employees;
 		cantidad_empleados = objeto.employees.length;
